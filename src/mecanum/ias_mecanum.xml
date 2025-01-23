@@ -1,0 +1,7 @@
+<library path="mecanum_hf">
+  <class name="ias/IasMecanum" 
+  type="ias::ias_mecanum" 
+  base_class_type="hardware_interface::SystemInterface">
+    <description>This is a square plugin.</description>
+  </class>
+</library>
