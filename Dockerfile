@@ -33,10 +33,9 @@ RUN apt install -y gosu \
 		   sudo \
 		   udev
 
-USER ubuntu
+# USER ubuntu
 RUN . /opt/ros/jazzy/setup.bash
 RUN ls > $(mktemp)
-RUN rosdep update
 COPY . /sim_ws/
 RUN  <<EOF
 . /sim_ws/install/setup.bash

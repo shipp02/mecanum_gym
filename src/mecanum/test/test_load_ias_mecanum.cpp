@@ -27,24 +27,28 @@ public:
     </hardware>
     <joint name="front_left">
       <command_interface name="velocity">
+        <param name="data_type">int</param>
         <param name="addr">128</param>
         <param name="motor">1</param>
       </command_interface>
     </joint>
     <joint name="front_right">
       <command_interface name="velocity">
+      <param name="data_type">int</param>
         <param name="addr">129</param>
         <param name="motor">2</param>
       </command_interface>
     </joint>
     <joint name="back_left">
       <command_interface name="velocity">
+      <param name="data_type">int</param>
         <param name="addr">128</param>
         <param name="motor">2</param>
       </command_interface>
     </joint>
     <joint name="back_right">
       <command_interface name="velocity">
+      <param name="data_type">int</param>
         <param name="addr">129</param>
         <param name="motor">1</param>
       </command_interface>
